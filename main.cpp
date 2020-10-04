@@ -24,13 +24,11 @@ using namespace std;
 unsigned long long getNumPaths(int row, int col);
 
 int main() {
-    for (int i = 0; i < 100; i++) {
         int row, col;
         std::cout << "Enter chessboard dimensions: ";
         std::cin >> row >> col;
         std::cout << "Paths from first to last file: " << getNumPaths(row, col) << endl
                 << endl;
-    }
 }
 
 unsigned long long getNumPaths(int row, int col){
