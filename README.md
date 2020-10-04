@@ -1,1 +1,2 @@
-# Chessboard-King-CS355
+# Chessboard-Algorithm-CS355
+Dynamic programming function to calculate the number of possible paths to be taken by a king from the first file to the last file of a chessboard of a given row and column count. It does this by using a nested for loop to simulate each possible path through the board, and calculating the sum of all of the number of paths to each cell in the last column, therefore the total number of paths from the first file to the last file
